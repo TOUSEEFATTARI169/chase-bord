@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+
+}
+
+.chaesbord{
+    border: 2px solid black;
+    width: 80%;
+    height: 580px;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+.chaesbord div{
+    /* border: 1px solid black; */
+    width: calc(100%/8);
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow:2px 1px white ;
+     
+
+}
+.A{
+    background-color: black;
+}
+.chaesbord{
+    background-color: white;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .chaesbord, .A, .B {
+      width: 100%;
+    }
+  }
+    
